@@ -1,3 +1,6 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
 int main()
 {
     int n;
@@ -9,5 +12,6 @@ int main()
        
    cout<<x<<endl;
    }
+   cout<<sizeof(A)<<endl;
    return 0;
 }
